@@ -101,8 +101,8 @@ for item in nonterm:
 
 for item in nonterm:	
 	print item 
-	print first_[item]
-	print follow_[item]
+	print "First",first_[item]
+	print "Follow",follow_[item]
 
 """
 S -> A C B | C b b | B a
