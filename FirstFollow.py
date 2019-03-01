@@ -98,7 +98,6 @@ for item in nonterm:
 for item in nonterm:
 	for el in foldep[item]:
 		follow_[item] = follow_[item].union(follow_[el])
-print "foldep of b",foldep['B']
 
 for item in nonterm:	
 	print item 
